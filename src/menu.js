@@ -20,7 +20,7 @@ function createMenuItem(name, ingre) {
     div.classList.add('menu-item');
 
     const img = document.createElement('img');
-    img.src = `../src/img/foods/${name.toLowerCase()}.jpg`;
+    img.src = `./img/foods/${name.toLowerCase()}.jpg`;
     
     const h3 = document.createElement('h3');
     h3.innerHTML = name;
