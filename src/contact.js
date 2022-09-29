@@ -18,7 +18,7 @@ function createPhone() {
 
 function createMap() {
     const map = document.createElement('img');
-    map.src = '../src/img/map.JPG';
+    map.src = './img/map.JPG';
     map.classList.add('contact-map');
 
     return map
